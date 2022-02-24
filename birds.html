@@ -11,6 +11,32 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" 
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
   <title>Birds</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+  <nav class="navbar navbar-expand-lg navbar-light bg-light"></nav>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Interesting Birds</a>
+    
+    <button class="navbar-toggler" type="button " class="btn btn-primary" data-bs-toggle="collapse"
+     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation" aria-setsize="100">
+      <span class="navbar-toggler-icon"></span>
+      Links to different pages
+    </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto ">
+          <li class="nav-item">
+            <a class="nav-link active" href="basic.html">Basic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="advanced.html">Advanced</a>
+          </li>
+        </ul>
+      </div>
+     
+      
+    </div>
 </head>
 <body>
 
@@ -145,17 +171,88 @@
       </tr>
       </tbody>
       </table>
-      
-      
-      
        </div>
 
+       <div class="button" role="group">
+        
+        <label>Buttons</label>
+        <div>
+        <button type="button" class="btn btn-success btn-toolbar btn-group-lg" role="group">p</button>
+        <br>
+        <button type="button" class="btn btn-success btn-toolbar" role="group">a</button>
+        <br>
 
+        <button type="button" class="btn btn-success btn-toolbar btn-group-sm" role="group">v</button>
+      </div>
+      <div>
+        <br>
+        <button type="button" class="btn btn-warning btn-toolbar btn-group-lg" role="group">u</button>
+        <br>
+        <button type="button" class="btn btn-warning btn-toolbar btn-group-sm" role="group">l</button>
+        <br>
+      </div>
+      <div>
+        <button type="button" class="btn btn-danger btn-toolbar btn-group-lg" role="group">u</button>
+        <br>
+      </div>
+      </div>
+       <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <button type="button" class="btn btn-primary"  href="basic.html">Basic</button>
+        <button type="button" class="btn btn-primary" href="advanced.html">Advanced</button>
+      
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <li><a class="dropdown-item" href="basic.html">Dropdown link</a></li>
+            <li><a class="dropdown-item" href="advanced.html">Dropdown link</a></li>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <form>
+        <div class=" mb-3 form-group">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email here" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3 form-group">
+          <label for="name of the Bird" class="form-label">Bird</label>
+          <input type="text" class="form-control" id="inputypeBird1" placeholder="Enter the name of the Bird">
+        </div>
+        <div class="mb-3 form-check">
+          <label for="Sign up" class="form-check-label">Sign up for NewsLetter?</label>
+          <input type="checkbox" class="form-check-input" id="inputypeBird1" placeholder="Enter the name of the Bird">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
 
-
-
-
-
+      <div class="card" style="width: 18rem;">
+        <img src="Aimage.jpg" class="card-img-top" alt="Red-bellied pitta">
+        <div class="card-body">
+          <h5 class="card-title"> p</h5>
+          <p class="card-text">This is a very rare specious of the bird that is found in african forests.</p>
+          <a href="https://wild-birds.info/list/alpha/v" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="Pimage.jpg"card-img-top alt="Abbott's babbler">
+        <div class="card-body">
+          <h5 class="card-title">a</h5>
+          <p class="card-text">This is a very rare specious of the bird that is found in amazon rain forests.</p>
+          <a href="https://thewebsiteofeverything.com/animals/birds/beginning-with/A" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="Vimage.jpg" card-img-top alt="Iago sparrow">
+        <div class="card-body">
+          <h5 class="card-title">v</h5>
+          <p class="card-text">This is a very rare specious of the bird that is found in tropical india.</p>
+          <a href="https://infoaway.com/birds-that-start-with-p/" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div> 
 
 
 </body>
